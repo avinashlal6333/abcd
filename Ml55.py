@@ -1,0 +1,10 @@
+totalRecords=10
+numberGolfRecreation=4
+probGolf=numberGolfRecreation/totalRecords
+print("unconditional probability of golf:={}".format(probGolf))
+numberMedRiskSingle=2
+numberMedRisk=3
+probMedRiskSingle=numberMedRiskSingle/totalRecords
+probMedRisk=numberMedRisk/totalRecords
+conditionalprobability=(probMedRiskSingle/probMedRisk)
+print("conditonal prob of single given medRisk:={}".format(conditionalprobability))
